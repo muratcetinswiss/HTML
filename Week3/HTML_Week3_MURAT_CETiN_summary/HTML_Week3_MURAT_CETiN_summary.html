@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Week3 Murat Cetin summary.html </title>
+    <style>
+        /* Style the element with the id "h1" */
+        #h1 {
+            font-family: unset;
+        }
+
+        /* Style the element with the id "oku" */
+        #oku {
+            background-color: rgb(255, 255, 255);
+            color: rgb(247, 19, 19);
+        }
+
+        /* Style all elements with the class name "class1" */
+        .class1 {
+            background-color: yellow;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 0px;
+        }
+
+        /* Style all elements with the class name "class2" */
+        .class2 {
+            color: rgb(0, 0, 0);
+            padding: 1px;
+            text-decoration: none;
+        }
+
+        /* Style all elements with the class name "class3" */
+        .class3 {
+            color: blue;
+            padding: 1px;
+        }
+
+        /* Style all elements with the class name "class4" */
+        .class4 {
+            text-align: left;
+        }
+
+        /* Style all elements with the class name "class5" */
+        .class5 {
+            background-color: rgb(226, 225, 220)
+        }
+
+        /* Style all elements with the class name "class6" */
+        .class6 {
+            background-color: rgb(245, 230, 20)
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Ödev Başlık -->
+    <header>
+        <h1 id="h1">WP 2021 - Hafta 03 - Ödev</h1>
+
+
+        <article>
+            <p>Bu haftaki derste daha fazla<a href="#Attribüt" class="class1"> HTML Attribüt</a>lerini tanıdık ve biraz
+                daha
+                detaylarına baktık ve
+                <a href="#Entites" class="class1">HTML Entites</a>'ler ile<br>
+                tanıştık. Ayrıca <u><strong>form</strong></u> ve kullnıcıların bilgi girebilmesi için
+                <u><strong>input</a></strong></u> elemanlarını tanıdık. Aşağıda <a href="#konsept" class="class2">"Hafta
+                    04<br>
+                    Konseptler ve Linkler"</a> bölümünde bu hafta işlediklerimizi özet olarak bulabilirsiniz.
+            </p>
+        </article>
+
+        <hr>
+
+    </header>
+
+    <main>
+        <!-- Hatırlatma  -->
+        <fieldset>
+            <legend class="class1"><strong>HATIRLATMA</strong></legend>
+            <details open>
+                <summary id="oku">
+                    OKU BENİ...
+                </summary>
+                <p><strong>Teorie derslerinde gördüğünüz konuların dısında kendiniz deayrıca araştırma yapıp tag ve<br>
+                        attribute'leri öğreniniz.</strong></p>
+                <p>Ölçü olarak, alttaki dağılımı referans alabilirsiniz:</p>
+                <!-- Ders dağılım oran -->
+                <ul>
+                    <li>25% Teori</li>
+                    <li>20% Pratik</li>
+                    <li>25% Ödev</li>
+                    <li>30% Kendi başınıza araştırma</li>
+                </ul>
+            </details>
+        </fieldset>
+        <!-- Hafta 04 içerik -->
+        <fieldset>
+            <legend id="konsept"><strong>Hafta 04 Konseptler ve Linkler</strong></legend>
+            <details open>
+                <summary>
+                    Göster...
+                </summary>
+                <!-- HTML Tagları -->
+                <ul>
+                    <li>
+                        <h4>HTML Tag'ları</h4>
+                        <ul>
+                            <li>form/input/select/textarea/label/button/fieldset/legend</li>
+                            <li>audio, progress, meter, textarea, video, map, select, option</li>
+                            <li>meta</li>
+                            <ul>
+                                <li>meta tag kullanım örnekleri:<a href="https://gist.github.com/kevinSuttle/1997924"
+                                        class="class3">
+                                        https://www.gist.github.com/kevinSuttle/1997924
+                                    </a></li>
+                            </ul>
+                            <li>embed, iframe</li>
+                            <li>Daha fazlası: <a href="https://html.com/tags/" class="class3">html.com/tags/
+                                </a></li>
+                    </li>
+                </ul>
+                <!-- HTML Attribüt -->
+                <li>
+                    <h4 id="Attribüt">HTML Attribütleri</h4>
+                </li>
+                <ul>
+                    <li>Global</li>
+                    <ul>
+                        <li>id, calass, title, style, data-*, hidden, lang, tabindex, contentediable</li>
+                        <li>Event Handlers</li>
+                        <ul>
+                            <li>onclick, onfocus, onchange, onmouseout, onmouseover, ondblick</li>
+                        </ul>
+                        <li>Daha fazlası: <a href="https://developer.mozilla.org/en-US/" class="class3">Dev Mozilla
+                                Reference
+                            </a></li>
+                    </ul>
+                    <li>Tag spesifik</li>
+                    <ul>
+                        <li>src, alt, href, target, type, autofocus, autocomplete, placeholder</li>
+                        <li>pattern, placeholder, min, max, size, minlength, maxlength, name, readonly, required,
+                            spellcheck, value,...
+                        <li>loop,autoplay,muted,played,buffered</li>
+                        <li>Teori slaytlarına ve HTML.com/attributes 'a kullanım kontext'leri ve daha fazlası için</li>
+                        bakınız</li>
+                    </ul>
+                    <li>Daha fazlası: <a href="https://html.com/attributes/" class="class3">html.com/attributes
+                        </a></li>
+                </ul>
+                <!-- HTML Entiti -->
+                <li>
+                    <h4 id="Entites">HTML Entity'leri</h4>
+                </li>
+                <ul>
+                    <li>&#128169 , &#128521 , &#128584 , &#11815&#11814 , 😎</li>
+                    <li>Karakter referans sayfası: <a href="https://www.w3schools.com/html/html_entities.asp"
+                            class="class3">
+                            HTML Entities Interactive Reference
+                        </a> </li>
+                </ul>
+                </ul>
+            </details>
+        </fieldset>
+        <hr>
+        <!-- ZH,GE,BE tablo -->
+        <table width="1250" height="200">
+            <caption>İsviçre'de bazı kantonlar ile ilgili bilgiler</caption>
+            <thead>
+                <tr style="background-color: rgb(9, 141, 119)">
+                    <th width="250" height="15">İsim</th>
+                    <th width="100" height="15">Kısaltma</th>
+                    <th>En büyük şehri</th>
+                    <th>Nüfusu</th>
+                    <th>Konuşulan dil</th>
+                    <th>Bayrağı</th>
+                    <th>Sayfası</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="class4">Zürich</th>
+                    <td>ZH</td>
+                    <td>Zürich</td>
+                    <td>1'504'346</td>
+                    <td>Almanca</td>
+                    <td><img src="./img/zürih.png" alt=""></td>
+                    <td><a href="https://www.zh.ch/de.html" class="class3">zh.ch</a> </td>
+
+                </tr>
+                <tr>
+                    <th class="class4">Cenevre</th>
+                    <td>GE</td>
+                    <td>Cenevre</td>
+                    <td>495'249</td>
+                    <td>Fransızca</td>
+                    <td><img src="./img/cenevre.png" alt=""></td>
+                    <td><a href="https://www.ge.ch/" class="class3">ge.ch</a></td>
+
+                </tr>
+                <tr>
+                    <th class="class4">Bern</th>
+                    <td>BE</td>
+                    <td>Bern</td>
+                    <td>1'031'126</td>
+                    <td>Almanca,<br>Fransızca</td>
+                    <td><img src="./img/bern.png" alt=""></td>
+                    <td><a href="https://www.be.ch/" class="class3">be.ch</a></td>
+                </tr>
+
+                <tr>
+                    <th colspan="7" width="1250" height="15" class="class5">
+                    </th>
+
+                </tr>
+                <tr>
+                    <th colspan="3" class="class6">Toplam Nüfus</th>
+                    <th colspan="4">8'039'060</th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
